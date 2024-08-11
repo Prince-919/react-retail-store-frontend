@@ -1,0 +1,83 @@
+.item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.item .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item .name {
+  color: tomato;
+  font-size: 20px;
+}
+
+.item .price {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.699);
+  font-size: 20px;
+}
+
+.item .ant-btn {
+  border-radius: 2px !important;
+  background-color: #16db65 !important;
+  color: white !important;
+  outline: none !important;
+  border: 1px solid #16db65 !important;
+  margin-top: 10px !important;
+}
+
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+input {
+  border: 1.6px solid #8f94fb !important;
+  border-radius: 5px !important;
+}
+.ant-select-selector {
+  border: 1.6px solid #8f94fb !important;
+  border-radius: 5px !important;
+}
+.category {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-right: 50px;
+  align-items: center;
+  padding-left: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.category h4 {
+  margin-right: 25px;
+}
+.category img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.selected-category {
+  box-shadow: #8f94fb 0px 1px 4px;
+}
+
+.sub-total h3 {
+  color: #38b000;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.bill-modal h1 {
+  font-size: 30px;
+}
+
+.bill-modal p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bill-header {
+  border-bottom: 2px dotted black;
+}

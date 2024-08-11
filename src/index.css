@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #343a40;
+}
+::-webkit-scrollbar-thumb {
+  background: #4e54c8;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.btn {
+  background-color: #4e54c8 !important;
+  color: white !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}

@@ -1,0 +1,29 @@
+.authentication {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("./auth.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.authentication .ant-row {
+  justify-content: center !important;
+  width: 100%;
+}
+.authentication form {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 20px;
+  background: #2e409e;
+  border-radius: 3px;
+}
+.authentication label {
+  color: white !important;
+}
+.auth-btn {
+  padding: 18px 0 !important;
+  color: #2e409e !important;
+  font-weight: 600 !important;
+}
